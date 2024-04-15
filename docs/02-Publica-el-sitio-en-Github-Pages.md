@@ -79,3 +79,35 @@
 10. En el menú lateral busca la opción "pages".
 
     ![IMG-30](./assets/30.png)
+
+11. Ya en Github Pages en el apartado "Branch" selecciona la opción `gh-pages`.
+
+    ![IMG-31](./assets/31.png)
+
+    Una vez seleccionado de click en "Save".
+
+    ![IMG-32](./assets/32.png)
+
+12. Dirigite a "Actions"
+
+    ![IMG-33](./assets/33.png)
+
+13. Selecciona el workflow llamado "ci" situado en la barra del lateral izquierdo.
+    
+    ![IMG-34](./assets/34.png)
+
+    Entra en la acción dando click en el título
+
+    ![IMG-35](./assets/35.png)
+
+    Da click en el job llamado "deploy"
+
+    ![IMG-36](./assets/36.png)
+
+    Despliega el paso "Run mkdocs gh-deploy --force"
+
+    ![IMG-37](./assets/37.png)
+
+    Note que en el paso final verá una nota informativa que le dirá la URL mediante la cual podrá acceder a su sitio. 
+
+

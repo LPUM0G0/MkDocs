@@ -12,7 +12,13 @@ En esta guía asumieremos que cuentas con el siguiente listado de herramientas, 
 - Una cuenta de Github  
 - Visual Studio Code
 
-[Continúa aquí](./01-Creacion-del-sitio.md)
+***
+
+## Documentación
+[Primero crea tu sitio](./01-Creacion-del-sitio.md)
+
+[Después Publica tu sitio](./02-Publica-el-sitio-en-Github-Pages.md)
+
 
 
 
