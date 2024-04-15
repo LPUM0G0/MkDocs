@@ -61,3 +61,21 @@
     ```BASH
     git commit -m "Añadiendo la configuración inicial para mkdocs"
     ```
+
+7. Manda tu versión a github:
+
+    ```BASH
+    git push origin main
+    ```
+
+8. Dirigete al repositorio en Github
+
+    ![IMG-28](./assets/28.png)
+
+9. Da click en el apartado "settings".
+
+    ![IMG-29](./assets/29.png)
+
+10. En el menú lateral busca la opción "pages".
+
+    ![IMG-30](./assets/30.png)
