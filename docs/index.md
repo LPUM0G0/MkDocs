@@ -17,7 +17,7 @@ En esta guía asumieremos que cuentas con el siguiente listado de herramientas, 
 ## Documentación
 [Primero crea tu sitio](./01-Creacion-del-sitio.md)
 
-[Después Publica tu sitio](./02-Publica-el-sitio-en-Github-Pages.md)
+[Después publica tu sitio](./02-Publica-el-sitio-en-Github-Pages.md)
 
 
 

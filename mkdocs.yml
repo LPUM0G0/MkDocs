@@ -21,14 +21,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: pink
-      accent: red 
+      primary: blue
+      accent: teal 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: pink
-      accent: pink
+      primary: blue
+      accent: blue
 
 plugins:
   - social
