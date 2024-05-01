@@ -95,77 +95,76 @@
 
 16. Detenga la ejecución del servidor y copie el siguiente contenido en su archivo `mkdocs.yml`
 
-    ```YAML
-    site_name: Guía MKDocs con Material
-    #site_url: 
-    theme:
-    name: material
-    #  logo: 
-    #  favicon: 
-    features:
-        - navigation.tabs
-        - navigation.sections
-        - navigation.expand
-        - toc.integrate
-        - navigation.top
-        - search.suggest
-        - search.highlight
-        - content.tabs.link
-        - content.code.annotation
-        - content.code.copy
-    language: es
-    palette:
-        - scheme: default
-        toggle:
-            icon: material/toggle-switch-off-outline 
-            name: Switch to dark mode
-        primary: pink
-        accent: red 
-        - scheme: slate 
-        toggle:
-            icon: material/toggle-switch
-            name: Switch to light mode    
-        primary: pink
-        accent: pink
+```YAML
+site_name: Ejemplo documentación usando MKDocs y Material
+#site_url: https://dominio.tld 
+theme:
+  name: material
+  #logo: assets/tu_logo.png
+  #favicon: assets/tu_logo.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: es
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: pink
+      accent: red 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: pink
+      accent: pink
 
-    plugins:
-    - social
-    - search
+plugins:
+  - social
+  - search
 
-    extra:
-    social:
-        - icon: fontawesome/brands/discord
-        #  link: 
-        - icon: fontawesome/brands/github-alt
-        #  link: 
-        - icon: fontawesome/brands/linkedin
-        #  link: 
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/FVCW5mBQVs
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/LPUMOGO22
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mora-gómez-luis-enrique-5a7411221/
 
-    markdown_extensions:
-    - pymdownx.highlight:
-        anchor_linenums: true
-    - pymdownx.inlinehilite
-    - pymdownx.snippets
-    - admonition
-    - pymdownx.arithmatex:
-        generic: true
-    - footnotes
-    - pymdownx.details
-    - pymdownx.superfences
-    - pymdownx.mark
-    - attr_list
-    - pymdownx.emoji:
-        emoji_index: !!python/name:material.extensions.emoji.twemoji
-        emoji_generator: !!python/name:materialx.emoji.to_svg
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
-    #copyright: |
-    
+copyright: |
 
-    extra_javascript:
-    - https://polyfill.io/v3/polyfill.min.js?features=es6
-    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-    ```
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+```
 
 17. Ejecute el siguiente comando en su terminal
     ```BASH
